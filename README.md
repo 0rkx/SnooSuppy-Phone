@@ -1,20 +1,76 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Snoosuppy Phone
 
-# Run and deploy your AI Studio app
+Snoonu Hackathon!!
 
-This contains everything you need to run your app locally.
+## Overview
 
-View your app in AI Studio: https://ai.studio/apps/drive/1zNoam5xwIuul-c-FVgjiUvjnJvCdatU9
+This README documents the current implementation of `SnooSuppy-Phone`. It is based on the checked-in source files, package manifests, and entry points in the repository.
 
-## Run Locally
+## What It Covers
 
-**Prerequisites:**  Node.js
+- web application UI
+- commerce or inventory operations
+- hackathon prototype
 
+## Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- Document intake, upload, and parsing flows
+- Gemini/OpenAI integration points for AI-assisted processing
+- Supplier, inventory, order, or product management flows
+- SEO, metadata, and deployment-oriented website structure
+- Hackathon prototype structure with rapid full-stack implementation
+
+## Tech Stack
+
+- Vite
+- React
+- TypeScript
+
+## Code Highlights
+
+- Entry points: App.tsx, index.html, index.tsx
+- JavaScript tooling and scripts are declared in package.json.
+
+## Project Structure
+
+- `App.tsx`
+- `index.html`
+- `package.json`
+- `tsconfig.json`
+- `vite.config.ts`
+- `components/ActiveOrders.tsx`
+- `components/BottomNav.tsx`
+- `components/Header.tsx`
+- `components/KPIGrid.tsx`
+- `components/LowStock.tsx`
+- `components/UpcomingInvoices.tsx`
+
+## Getting Started
+
+Clone the repository and install the dependencies for the part of the project you want to run.
+
+### Frontend / Node
+
+```bash
+npm install
+npm run dev
+```
+
+### Available Scripts
+
+- `dev`: `vite`
+- `build`: `vite build`
+- `preview`: `vite preview`
+
+## Environment Variables
+
+The code references these environment keys:
+
+- `API_KEY`
+- `GEMINI_API_KEY`
+
+## Development Notes
+
+- Keep generated files, dependency folders, virtual environments, and build outputs out of commits.
+- Add screenshots or deployment links here when the project is running in production.
+- Update this README when entry points, environment variables, or setup steps change.
